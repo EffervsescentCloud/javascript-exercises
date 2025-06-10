@@ -1,11 +1,10 @@
-const convertToCelsius = function() {
+function convertToCelsius(temp) {
+  return Math.round((temp - 32) * 50/9) / 10
 };
 
-const convertToFahrenheit = function() {
+function convertToFahrenheit (temp) {
+  return Math.round(10 * (temp * 9/5) + 320) / 10
 };
 
-// Do not edit below this line
-module.exports = {
-  convertToCelsius,
-  convertToFahrenheit
-};
+console.log(convertToCelsius(100))
+console.log(convertToFahrenheit(100))

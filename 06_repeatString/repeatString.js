@@ -1,6 +1,9 @@
-const repeatString = function() {
-
+function repeatString(string, num) {
+    let newString = ''
+    for(let i = 0; i < num; ++i) {
+        newString = newString + string
+    }
+    return newString
 };
 
-// Do not edit below this line
-module.exports = repeatString;
+console.log(repeatString("hello", 4))

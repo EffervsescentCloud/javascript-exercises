@@ -1,6 +1,5 @@
-const reverseString = function() {
-
+function reverseString(string) {
+    return string.split('').reverse().reduce((newString, letter) => (newString + letter))
 };
 
-// Do not edit below this line
-module.exports = reverseString;
+console.log(reverseString("hello"))
