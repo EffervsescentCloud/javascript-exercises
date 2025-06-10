@@ -1,9 +1,13 @@
 function repeatString(string, num) {
     let newString = ''
-    for(let i = 0; i < num; ++i) {
-        newString = newString + string
+    if num >= 0 {
+        for(let i = 0; i < num; ++i) {
+            newString = newString + string
+        }
+        return newString
+    } else {
+        return "ERROR"
     }
-    return newString
 };
 
 console.log(repeatString("hello", 4))
