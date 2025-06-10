@@ -8,3 +8,7 @@ function convertToFahrenheit (temp) {
 
 console.log(convertToCelsius(100))
 console.log(convertToFahrenheit(100))
+moodule.exports = {
+  convertToCelsius,
+  convertToFahrenheit
+}

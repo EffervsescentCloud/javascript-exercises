@@ -3,3 +3,4 @@ function reverseString(string) {
 };
 
 console.log(reverseString("hello"))
+module.exports = reverseString

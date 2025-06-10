@@ -7,3 +7,4 @@ function repeatString(string, num) {
 };
 
 console.log(repeatString("hello", 4))
+module.exports = repeatString

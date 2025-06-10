@@ -11,3 +11,4 @@ function removeFromArray(array, ..._args) {
 };
 
 console.log(removeFromArray([1,2,3,4,5,6,7,8,9,10], 5, 4))
+module.exports = removeFromArray
