@@ -3,4 +3,4 @@ function sumAll (num1, num2) {
 };
 
 console.log(sumAll(4, 2))
-moodule.exports = sumAll
+module.exports = sumAll
